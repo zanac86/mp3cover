@@ -47,7 +47,7 @@ audio.tags.add(
         encoding=1,
         mime='image/jpg',
         type=3,
-        desc=u'Cover',
+        desc="", # u'Cover',
         data=open(filename_cover, "rb").read()
     )
 )
